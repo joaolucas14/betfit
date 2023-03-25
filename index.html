@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+<body>
+    <div class="principal">
+        <div class="cabecalho">
+            <h1>Formulário de inscrição</h1>
+            <h2>Transforme seu corpo com a BetFit, a academia que aposta em você</h2>
+        </div>
+        <main>
+            <img src="imagens/imagem_sem_fundo_2.png" alt="">
+            <p>Transforme seu corpo e sua vida na nossa academia com equipamentos modernos e treinadores qualificados.
+                Tenha um estilo de vida saudável e ativo com nossos programas de exercícios personalizados e nutricionistas especializados.
+                Junte-se a nossa comunidade fitness e alcance seus objetivos de forma divertida e motivadora. Agende sua visita hoje mesmo!</p>
+
+                <p><strong>Horário de funcionamento: <br></strong>
+                    <ol type="none">
+                      <li><strong>Segunda a Sexta:</strong> 06:00 as 22:00</li>
+                      <li><strong>Sábado:</strong> 07:00 as 17:00</li>
+                      <li><strong>Domingo:</strong> 08:00 as 12:00</li>
+                    </ol>
+                    
+                      
+                <p><strong>Local: Rua João Rodrigues Nº135 </p>
+            
+            <form action="">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="nome">
+                        <label for="inome">Nome:</label>
+                        <input type="text" name="nome" id="inome" required minlength="3"
+                        maxlength="30">
+                    </div>
+                    <div class="endereco">
+                        <label for="iendereco">Endereço: </label>
+                        <input type="text" name="endereco" id="iendereco" required minlength="3"
+                        maxlength="40">
+                    </div>
+                    <div class="origem">
+                        <label for="inasc">Data de nascimento: </label>
+
+                        <label for="inacionalidade">Nacionalidade: </label>
+                        <br>
+                        <input type="date" name="nasc" id="inasc" required>
+            
+                        <input type="text" name="nacionalidade" id="inacionalidade" value="Brasileiro" required>
+                    </div>
+                    
+
+                    
+                    <div class="medidas">
+                        <label for="ialtura">Altura: </label>
+
+                        <label for="ipeso">Peso: </label>
+                        <br>
+                        <input type="number" name="altura" id="ialtura" placeholder="CM" required maxlength="300">
+
+                        <input type="number" name="peso" id="ipeso" placeholder="KG" required
+                        max="500">
+                    </div>
+                    <div class="genero">
+                        <label for="" >Sexo:</label>
+                        <br>
+                        <label>
+                        <input type="radio" name="sexo" value="masculino" >Masculino</label>
+                        <label id = "masc">
+                        <input type="radio" name="sexo" value="feminino">Feminino</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Contato</legend>
+                    <div class="contato">
+                        <label for="iemail">E-mail:</label>
+                        <label for="icel">Celular: </label>
+                        <br>
+                        <input type="email" name="email" id="iemail" required>
+                        <input type="tel" name="cel" id="icel"  required>
+                    </div>
+                </fieldset>
+                <fieldset class="planos">
+                    <legend>Planos</legend>
+                    <label for="">Modalidades:</label>
+                    <br>
+                        <select>
+                            <optgroup label="Planos">
+                              <option value="musculacao">Musculação</option>
+                              <option value="musculacao-crossfit">Musculação + Cross Fit</option>
+                              <option value="musculacao-lutas">Musculação + Lutas</option>
+                            </optgroup>
+                          </select>
+                    <br>
+    
+                          <label for="pagamento">Formas de Pagamento:</label>
+                          <br>
+                          <select>
+                            <optgroup label="Cartões de Crédito">
+                              <option value="visa">Visa</option>
+                              <option value="mastercard">Mastercard</option>
+                            </optgroup>
+                            <optgroup label="Boleto Bancário">
+                              <option value="boleto">Boleto Bancário</option>
+                            </optgroup>
+                            <optgroup label="Transferência Bancária">
+                              <option value="transferencia">Transferência Bancária</option>
+                            </optgroup>
+                            <optgroup label="PIX">
+                              <option value="pix">PIX</option>
+                            </optgroup>
+                          </select>
+                        <br>
+                          <label for="metodo-pagamento">Método de Pagamento:</label>
+                          <br>
+                        <select>
+                        <optgroup label="Assinatura">
+                            <option value="mensal">Mensal</option>
+                            <option value="trimestral">Trimestral</option>
+                            <option value="anual">Anual</option>
+                        </optgroup>
+                        </select>
+
+                      
+                </fieldset>
+                <input type="submit" class="botao">
+                <input type="reset" class="botao">
+            </form>
+        </main>
+        
+    </div>
+</body>
+</html>
