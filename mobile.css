@@ -89,6 +89,7 @@
         font-size: 40px;
         margin-bottom: 15px;
         color: red;
+        text-align: center;
     }
     p.sobre_nos{
         font-size: 23px;
@@ -97,9 +98,12 @@
     article.atividades{
         margin-top: 50px;
         text-align: center;
+        
     }
     h3.atividades{
         font-size: 40px;
+        margin-top: 50px;
+        text-align: center;
     }
     
     #cross{
@@ -220,7 +224,7 @@
         background-size: cover;
         opacity: 70%;
         position: relative;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         
     }
     #titulo_2{
