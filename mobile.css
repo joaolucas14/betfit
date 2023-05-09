@@ -1,10 +1,10 @@
-@media only screen and (max-width: 2000px){
+@media only screen and (max-width: 600px){
     *{
         margin: 0px;
         padding: 0px;
     }
     body{
-        min-width: 500px;
+        min-width: 400px;
         background-color: rgb(241, 241, 241);
         overflow-x: hidden;
     }
@@ -172,7 +172,8 @@
     }
     img.estrutura{
         margin: 50px;
-        width: 450px;
+        max-width: 400px;
+        min-width: 300px;
         box-shadow: 20px 1px 0px 7px rgb(233, 54, 54)
     }
 
@@ -203,7 +204,8 @@
         font-size: 30px;
     }
     iframe.localizacao{
-        width: 450px;
+        max-width: 400px;
+        min-width: 300px;
         height: 300px;      
     }
     div#localizacao{
