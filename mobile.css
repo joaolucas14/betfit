@@ -181,8 +181,7 @@
     }
     img.estrutura{
         margin: 50px;
-        max-width: 400px;
-        min-width: 250px;
+        width: 250px;
         box-shadow: 20px 1px 0px 7px rgb(233, 54, 54)
     }
 
@@ -194,8 +193,7 @@
         font-size: 40px
     }
     img.especial{
-        max-width: 400px;
-        min-width: 250px;
+        width: 250px;
     }
     p.especial{
         font-size: 23px;
