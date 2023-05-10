@@ -36,13 +36,19 @@
         display: none;
     }
     li{
-        background-color: lightslategrey;
+        background-color:  rgb(247, 79, 79);
         text-align: center;
         padding: 10px;
         margin: 1px;
     }
     li >a{
-        color: black;
+        color: white;
+        text-decoration: none;
+    }
+    li:hover{
+        background-color:rgb(233, 54, 54);
+        cursor: pointer;
+        transition: all 0.3s ease;
     }
     .imagem_fundo{
         width:100vw;
