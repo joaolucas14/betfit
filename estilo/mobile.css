@@ -53,7 +53,7 @@
     .imagem_fundo{
         width:100vw;
         height: 500px;
-        background: white  url(imagens_2/musculacao-holdfit.jpg) center center no-repeat fixed;
+        background: white  url(/betfit/imagens_2/musculacao-holdfit.jpg) center center no-repeat fixed;
         background-size: cover;
         opacity: 70%;
         position: relative;
@@ -119,7 +119,7 @@
         width: 90%;
         height: 150px;
         background-color: aqua;
-        background: white  url(imagens_2/crossfi_ver2.jpg) top center no-repeat local;
+        background: white  url(/betfit/imagens_2/crossfi_ver2.jpg) top center no-repeat local;
         background-size: cover;
         opacity: 80%;
     }
@@ -138,7 +138,7 @@
         margin: 5% 5% 10% 5%;
         width: 90%;
         height: 150px;
-        background: white  url(imagens_2/luta_ver2.jpg) center center no-repeat local;
+        background: white  url(/betfit/imagens_2/luta_ver2.jpg) center center no-repeat local;
         opacity: 80%;
 
     }
@@ -157,7 +157,7 @@
         margin: 5% 5% 10% 5%;
         width: 90%;
         height: 150px;
-        background: white  url(imagens_2/musculacao_ver2.jpg) center center no-repeat local;
+        background: white  url(/betfit/imagens_2/musculacao_ver2.jpg) center center no-repeat local;
         opacity: 80%;
     }
     #musculacao > h2{
@@ -223,7 +223,7 @@
     .imagem_fundo_2{
         width:100vw;
         height: 250px;
-        background: white  url(imagens_2/musculacao-holdfit.jpg) center center no-repeat local;
+        background: white  url(/betfit/imagens_2/musculacao-holdfit.jpg) center center no-repeat local;
         background-size: cover;
         opacity: 70%;
         position: relative;
