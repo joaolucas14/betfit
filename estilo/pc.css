@@ -76,13 +76,15 @@
         background-color: rgb(225, 225, 225);
      }
      img.sobre_nos{
-         width: 30%;
+        min-height: 15%;
+         max-width: 20%;
          height: 30%;
-         
+
      }
      h3.sobre_nos{
          font-size: 40px;
      }
+    
      div.detalhe{
         font-size: 40px;
         margin-bottom: 15px;
@@ -91,7 +93,8 @@
     }
      p.sobre_nos{
          font-size: 23px;
-         padding: 0px 10px;
+        padding: 0px 10px;
+        max-width: 800px;
      }
      article.atividades{
          margin-top: 20px;
