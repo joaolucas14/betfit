@@ -4,8 +4,7 @@
         padding: 0px;
     }
     body{
-        min-width: 300px;
-        max-width: 550px;
+        
         background-color: rgb(241, 241, 241);
         overflow-x: hidden;
     }
@@ -68,7 +67,6 @@
         top: 50%;
         transform: translate(-50%, -50%
         );
-        
     }
     .texto > h2{
         font-size: 50px;
