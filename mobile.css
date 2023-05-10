@@ -4,7 +4,7 @@
         padding: 0px;
     }
     body{
-        min-width: 400px;
+        min-width: 300px;
         background-color: rgb(241, 241, 241);
         overflow-x: hidden;
     }
@@ -78,7 +78,7 @@
        background-color: rgb(225, 225, 225);
     }
     img.sobre_nos{
-        width: 30%;
+        max-width: 30%;
         height: 30%;
         
     }
@@ -177,7 +177,7 @@
     img.estrutura{
         margin: 50px;
         max-width: 400px;
-        min-width: 300px;
+        min-width: 250px;
         box-shadow: 20px 1px 0px 7px rgb(233, 54, 54)
     }
 
@@ -189,8 +189,8 @@
         font-size: 40px
     }
     img.especial{
-        width: 450px;
-        margin: 50px;
+        max-width: 400px;
+        min-width: 250px;
     }
     p.especial{
         font-size: 23px;
@@ -209,7 +209,7 @@
     }
     iframe.localizacao{
         max-width: 400px;
-        min-width: 300px;
+        min-width: 250px;
         height: 300px;      
     }
     div#localizacao{
