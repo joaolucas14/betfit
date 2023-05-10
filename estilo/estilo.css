@@ -172,6 +172,7 @@ fieldset.planos >select{
 
     color: rgb(0, 0, 0);
     border: none;
+    margin-bottom: 10px;
 }
 #botao {
     display: inline-block;
@@ -182,7 +183,7 @@ fieldset.planos >select{
     text-transform: uppercase;
     border-radius: 2px;
     
-    background-color: #ff0000;
+    background-color: #fc373be7;
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
