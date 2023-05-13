@@ -154,7 +154,7 @@
     }
     #musculacao{
         position: relative;
-        background: rgb(255, 255, 255)  url(/betfit/imagens_2/musculacao_ver2.jpg) bottom right no-repeat local;
+        background: rgb(255, 255, 255)  url(/betfit/imagens_2/musc_ver.jpg) center bottom no-repeat local;
         background-size: cover;
         opacity: 80%;
     }
