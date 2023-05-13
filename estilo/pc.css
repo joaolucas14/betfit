@@ -2,6 +2,7 @@
     *{
         margin: 0px;
         padding: 0px;
+        text-align: justify;
     }
     body{
         background-color: rgb(241, 241, 241);
