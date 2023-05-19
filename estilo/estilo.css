@@ -1,9 +1,12 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
-    font-size: 1em;}
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
 body{
     background-color:#fc373be7;
 }
@@ -15,7 +18,8 @@ div.cabecalho{
     box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.212);
 }
 .cabecalho > h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Black Ops One', cursive;
+    font-weight: lighter;
    text-align: justify;
     font-size: 40px;
     font-weight: 300;
@@ -178,7 +182,7 @@ fieldset.planos >select{
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: lighter;
     text-align: center;
     text-transform: uppercase;
     border-radius: 2px;
