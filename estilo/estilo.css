@@ -5,7 +5,7 @@
     padding: 0px;
     font-size: 1em;
     font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
+   
 }
 body{
     background-color:#fc373be7;
@@ -20,7 +20,7 @@ div.cabecalho{
 .cabecalho > h1{
     font-family: 'Black Ops One', cursive;
     font-weight: lighter;
-   text-align: justify;
+   
     font-size: 40px;
     font-weight: 300;
     font-style: normal;
@@ -29,8 +29,7 @@ div.cabecalho{
 }
 .cabecalho > h2{
     font-size: 27px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+     font-weight: 300;
     font-style: normal;
     text-decoration: none;
 }
@@ -44,7 +43,7 @@ ol{
 }
 
 div.principal{
-    min-width: 665px;
+    
     max-width: 800px;
     background-color: white;
     
@@ -58,8 +57,8 @@ div.principal{
 }
 img{
     display: block;
-    width: 275px;
-    height: 200px;
+    width: 30%;
+    height: 30%;
     margin: auto;
 }
 fieldset{
