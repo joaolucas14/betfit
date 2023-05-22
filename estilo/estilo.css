@@ -177,7 +177,7 @@ fieldset.planos >select{
     border: none;
     margin-bottom: 10px;
 }
-#botao {
+#botao_1 {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
@@ -190,9 +190,24 @@ fieldset.planos >select{
     color: #fff;
     cursor: pointer;
     transition: all 0.3s ease;
+    
   }
-  
-  #botao:hover {
+  #botao_2 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    
+    background-color: #fc373be7;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 20px;
+  }
+  #botao_1:hover, #botao_2:hover {
     background-color: #fff;
     color: #ff0000;
   }
