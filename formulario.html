@@ -31,7 +31,7 @@
                       
                 <p><strong>Local: Rua João Rodrigues Nº135 </p>
             
-            <form action="">
+            <form name="formulario-betfit" action="processo.php" method="post">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
                     <div class="nome">
@@ -68,11 +68,8 @@
                     </div>
                     <div class="genero">
                         <label for="" >Sexo:</label>
-                        <br>
-                        <label>
-                        <input type="radio" name="sexo" value="masculino" required>Masculino</label>
-                        <label id = "masc">
-                        <input type="radio" name="sexo" value="feminino">Feminino</label>
+                        <input type="text" required name="sexo" id="sexo">
+                        
                     </div>
                 </fieldset>
             
@@ -80,46 +77,24 @@
                     <legend>Dados Médicos</legend>
                     <div class="saude">
                        	<p>
-                    <label for="tipo-sanguineo">Tipo sanguíneo:</label>
-                    <select id="tipo-sanguineo" name="tipo-sanguineo" required>
-                        <option value=""></option>
-                        <option value="A+">A+</option>
-                        <option value="A-">A-</option>
-                        <option value="B+">B+</option>
-                        <option value="B-">B-</option>
-                        <option value="AB+">AB+</option>
-                        <option value="AB-">AB-</option>
-                        <option value="O+">O+</option>
-                        <option value="O-">O-</option>
-                    </select>
+                    <label for="tipo_sanguineo">Tipo sanguíneo:</label>
+                    <input type="text" name="tipo_sanguineo" id="tipo_sanguineo" required >
                     
                 </p>
                 <p>
-                    <label for="remedio-controlado">Usa algum medicamento controlado?</label><br>
-                    <input type="radio" id="remedio-controlado-sim" name="remedio-controlado" value="sim" required>
-                    <label for="remedio-controlado-sim">Sim</label><br>
-                    <input type="radio" id="remedio-controlado-nao" name="remedio-controlado" value="nao">
-                    <label for="remedio-controlado-nao">Não</label><br>
-                    <label for="remedio-controlado-observacoes">Se sim, qual?</label>
-                    <input type="text" id="remedio-controlado-observacoes" name="remedio-controlado-observacoes">
+                    <label for="remedio_controlado">Usa algum medicamento controlado? </label><br>
+                   
+                    <input type="text" id="remedio_controlado_observacoes" name="remedio_controlado_observacoes">
                 </p>
                 <p>
-                    <label for="lesoes-anteriores">Teve lesões anteriores?</label><br>
-                    <input type="radio" id="lesoes-anteriores-sim" name="lesoes-anteriores" value="sim"required>
-                    <label for="lesoes-anteriores-sim">Sim</label><br>
-                    <input type="radio" id="lesoes-anteriores-nao" name="lesoes-anteriores" value="nao"required>
-                    <label for="lesoes-anteriores-nao">Não</label><br>
-                    <label for="lesoes-anteriores-observacoes">Se sim, qual?</label>
-                    <input type="text" id="lesoes-anteriores-observacoes" name="lesoes-anteriores-observacoes">
+                    <label for="lesoes_anteriores">Teve lesões anteriores? </label><br>
+            
+                    <input type="text" id="lesoes_anteriores_observacoes" name="lesoes_anteriores_observacoes">
                 </p>
                 <p>
-                    <label for="cirurgias">Já realizou alguma cirurgia?</label><br>
-                    <input type="radio" id="cirurgias-sim" name="cirurgias" value="sim"required>
-                    <label for="cirurgias-sim">Sim</label><br>
-                    <input type="radio" id="cirurgias-nao" name="cirurgias" value="nao"required>
-                    <label for="cirurgias-nao">Não</label><br>
-                    <label for="cirurgias-observacoes">Se sim, qual?</label>
-                    <input type="text" id="cirurgias-observacoes" name="cirurgias-observacoes">
+                    <label for="cirurgias">Já realizou alguma cirurgia?  </label><br>      
+                    
+                    <input type="text" id="cirurgias_observacoes" name="cirurgias_observacoes">
                 </p>
                 <p>
                 </div>
@@ -135,57 +110,26 @@
                         <input type="tel" name="cel" id="icel"  required>
                     </div>
                 </fieldset>
-                <fieldset class="planos">
-                    <legend>Planos</legend>
-                    <label for="">Modalidades:</label>
-                    <br>
-                        <select>
-                            <optgroup label="Planos">
-                              <option value="musculacao">Musculação</option>
-                              <option value="musculacao-crossfit">Musculação + Cross Fit</option>
-                              <option value="musculacao-lutas">Musculação + Lutas</option>
-                            </optgroup>
-                          </select>
-                    <br>
-    
-                          <label for="pagamento">Formas de Pagamento:</label>
-                          <br>
-                          <select>
-                            <optgroup label="Cartões de Crédito">
-                              <option value="visa">Visa</option>
-                              <option value="mastercard">Mastercard</option>
-                            </optgroup>
-                            <optgroup label="Boleto Bancário">
-                              <option value="boleto">Boleto Bancário</option>
-                            </optgroup>
-                            <optgroup label="Transferência Bancária">
-                              <option value="transferencia">Transferência Bancária</option>
-                            </optgroup>
-                            <optgroup label="PIX">
-                              <option value="pix">PIX</option>
-                            </optgroup>
-                          </select>
+                
+                <fieldset>
+                    
+                    <legend>Registro</legend>
+                    <div class="contato">
+                        <label for="login">Login:</label>
+                        <label for="senha">Senha: </label>
                         <br>
-                          <label for="metodo-pagamento">Método de Pagamento:</label>
-                          <br>
-                        <select>
-                        <optgroup label="Assinatura">
-                            <option value="mensal">Mensal</option>
-                            <option value="trimestral">Trimestral</option>
-                            <option value="anual">Anual</option>
-                        </optgroup>
-                        </select>
-
-                      
+                        <input type="text" name="loguin" id="loguin" required>
+                        <input type="password" name="senha" id="senha"  required>
+                    </div>
                 </fieldset>
-                <input type="submit" class="botao">
+                <input type="submit" name = "submit" class="botao">
                 <input type="reset" class="botao">
             </form>
         </main>
         <a href="index.html" target="_blank">
             <div id="botao_1">Página inicial</div>
         </a> 
-        <a href="Login.html" target="_blank">
+        <a href="index.html" target="_blank">
             <div id="botao_2">Login</div>
         </a> 
     </div>
